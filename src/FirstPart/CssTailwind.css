@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cssTailwind { 
+    padding-top: 25%;
+    @apply pl-quarter;
+    @apply pr-quarter;
+}
+
+.panel {
+    border: 1px solid blue;
+    @apply text-red-700 my-5;
+}
+
+.panel-title {
+    background-color: blue;
+    color: white;
+    padding: 1.25rem 1rem 1.25rem 1rem;
+}
+
+.panel-body {
+    padding: 1.25rem 1rem 1.25rem 1rem;
+}
+
+.panel-body p {
+    line-height: 2;
+}
+
+.btn-primary {
+    @apply px-4 py-2 bg-blue-300 rounded text-black;
+}
