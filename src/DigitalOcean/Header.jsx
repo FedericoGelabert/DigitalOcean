@@ -1,7 +1,7 @@
 
 const Header = () => {
     return (
-        <div className="py-5 shadow-md">
+        <div className="py-5 shadow-md z-30 relative">
             <div className="container mx-auto flex justify-between">
                 <div className="flex items-center">
                     <div>

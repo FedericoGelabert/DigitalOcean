@@ -22,13 +22,18 @@ export default {
         'do-blue-mediumdark': 'rgb(0, 44, 155)',
         'do-blue-light': 'rgb(0, 105, 255)',
         'do-gray': 'rgb(214, 220, 234)',
-        'do-blue-bhover': 'rgb(0, 36, 124)'
+        'do-blue-bhover': 'rgb(0, 36, 124)',
+        'do-purple': 'rgb(48, 0, 145)'
       },
       backgroundImage: {
-        'main-image': "url('https://www.digitalocean.com/_next/static/media/floating-console-home-desktop-background.33702df4.svg')"
+        'main-image': "url('https://www.digitalocean.com/_next/static/media/floating-console-home-desktop-background.33702df4.svg')",
+        'new-banner': "url('https://www.digitalocean.com/_next/static/media/do-gtm-cta-text-desktop.49ae262a.svg')"
       },
       borderRadius: {
         'main': '5rem'
+      },
+      width: {
+        '9.5/12': '79%'
       }
     },
   },
