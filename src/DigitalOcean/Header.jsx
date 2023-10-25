@@ -10,25 +10,26 @@ const Header = () => {
                     </div>
                     <div>
                         <ul className="flex gap-x-5 pl-10 items-center font-semibold">
-                            <li className="flex items-center gap-2.5"><a href="#">Products</a>
+                        <a href="#" className="flex items-center gap-2.5">Products<li>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4 text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                                 </svg>
-                            </li>
-                            <li className="flex items-center gap-2.5"><a href="#">Solutions</a>
+                            </li></a>
+                            <a href="#" className="flex items-center gap-2.5">Solutions<li>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4 text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                                 </svg>
-                            </li>
-                            <li className="flex items-center gap-2.5"><a href="#">Developers</a>
+                            </li></a>
+                            <a href="#" className="flex items-center gap-2.5">Developers<li>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4 text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                                 </svg>
-                            </li>
-                            <li className="flex items-center gap-2.5"><a href="#">Businesses</a>
+                            </li></a>
+                            <a href="#" className="flex items-center gap-2.5">Businesses<li>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4 text-gray-600">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
-                            </li>
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </li></a>
                             <li><a href="#">Pricing</a></li>
                         </ul>
                     </div>
