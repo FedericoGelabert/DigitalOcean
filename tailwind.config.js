@@ -10,17 +10,25 @@ export default {
     },
     extend: {
       spacing: {
-        'quarter':'25%'
+        'quarter':'25%',
+        '200': '45rem'
       },
       fontFamily: {
         'sans': "'Work Sans', sans-serif"
       },
       colors: {
-        'do-blue-dark': '#080c2d',
+        'do-blue-dark': 'rgb(8, 27, 75)',
         'do-blue-medium': 'rgb(20, 86, 255)',
-        'do-blue-mediumdark': '#1d274c',
+        'do-blue-mediumdark': 'rgb(0, 44, 155)',
         'do-blue-light': 'rgb(0, 105, 255)',
-        'do-gray': 'rgb(214, 220, 234)'
+        'do-gray': 'rgb(214, 220, 234)',
+        'do-blue-bhover': 'rgb(0, 36, 124)'
+      },
+      backgroundImage: {
+        'main-image': "url('https://www.digitalocean.com/_next/static/media/floating-console-home-desktop-background.33702df4.svg')"
+      },
+      borderRadius: {
+        'main': '5rem'
       }
     },
   },
