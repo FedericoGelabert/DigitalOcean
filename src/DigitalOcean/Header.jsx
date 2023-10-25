@@ -1,7 +1,7 @@
 
 const Header = () => {
     return (
-        <div className="py-6 shadow-md">
+        <div className="py-5 shadow-md">
             <div className="container mx-auto flex justify-between">
                 <div className="flex items-center">
                     <div>
@@ -37,8 +37,8 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="gap-5 flex font-semibold">
-                    <button className="bg-white-400 py-2 px-5 hover:bg-gray-200 p-3 rounded-xl">Log in</button>
-                    <button className="bg-do-blue-light py-2 px-4 border rounded-xl text-white hover:bg-blue-800">Sign up</button>
+                    <button className="bg-white-400 py-2 px-5 hover:bg-gray-200 p-3 rounded-xl">Log in</button> 
+                    <button className="bg-do-blue-light py-1 px-5 border rounded-xl text-white hover:bg-blue-800 hover:duration-300">Sign up</button>
                 </div>
             </div>
         </div>
