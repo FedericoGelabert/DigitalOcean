@@ -1,7 +1,7 @@
 
 const Main = () => {
     return (
-        <div className="">
+        <div>
             <div className="pt-32 bg-do-blue-light bg-main-image bg-cover rounded-b-main h-200">
                 <div className="container mx-auto flex items-center flex-col text-white">
                     <h1 className="text-6xl font-bold">Dream it. Build it. Grow it.</h1>
@@ -9,7 +9,7 @@ const Main = () => {
                         using DigitalOcean's simple, cost-effective cloud hosting services.</p>
                     <div className="mt-8 font-semibold flex gap-x-5">
                         <button className="px-4 py-2 rounded-lg bg-do-blue-mediumdark hover:bg-do-blue-bhover hover:duration-300">Sign up with email</button>
-                        <button className="px-4 py-2 rounded-lg bg-white flex gap-3 items-center text-black"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
+                        <button className="px-4 py-2 rounded-lg bg-white flex gap-3 items-center text-black"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
                             <path fill="#fbc02d" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12	s5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24s8.955,20,20,20	s20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path><path fill="#e53935" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039	l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path><path fill="#4caf50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36	c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path><path fill="#1565c0" d="M43.611,20.083L43.595,20L42,20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571	c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
                         </svg>Sign up with Google</button>
                         <button className="px-4 py-2 rounded-lg bg-white flex gap-3 items-center text-black"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
@@ -18,7 +18,25 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="container mx-auto flex justify-center mt-16">
-                    <img alt="Preview of the DigitalOcean Control Panel " src="https://www.digitalocean.com/_next/static/media/dashboardMockup.2c5abdba.svg" className="rounded-xl w-7/12 shadow-lg"></img>
+                    <img alt="Preview of the DigitalOcean Control Panel " src="https://www.digitalocean.com/_next/static/media/dashboardMockup.2c5abdba.svg" className="rounded-xl w-7/12 shadow-2xl"></img>
+                </div>
+                <div className="flex container mx-auto gap-20 justify-center mt-10">
+                    <div className="w-64">
+                        <h4 className="text-4xl font-semibold pb-2 text-do-blue-light">#1</h4>
+                        <p className="leading-2 text-gray-600">In IaaS usability, VPS for SMBs,<br/> & SMB Hosting <a href="#" className="text-do-blue-light font-normal underline">on G2</a></p>
+                    </div>
+                    <div>
+                        <h4 className="text-4xl font-semibold pb-2 text-do-blue-light">15</h4>
+                        <p className="leading-2 text-gray-600">Globally distributed <br/>datacenters</p>
+                    </div>
+                    <div>
+                        <h4 className="text-4xl font-semibold pb-2 text-do-blue-light">99.99%</h4>
+                        <p className="leading-2 text-gray-600">Uptime SLA for Droplets and <br/>Volumes block storage</p>
+                    </div>
+                    <div>
+                        <h4 className="text-4xl font-semibold pb-2 text-do-blue-light">&gt;600k</h4>
+                        <p className="leading-2 text-gray-600">Customers building with <br/>DigitalOcean</p>
+                    </div>
                 </div>
             </div>
         </div>
