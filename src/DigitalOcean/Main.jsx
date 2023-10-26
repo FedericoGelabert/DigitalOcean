@@ -4,8 +4,8 @@ const Main = () => {
         <div>
             <div className="pt-32 bg-do-blue-light bg-main-image bg-cover rounded-b-main h-200 relative z-20">
                 <div className="container mx-auto flex items-center flex-col text-white">
-                    <h1 className="text-6xl font-bold">Dream it. Build it. Grow it.</h1>
-                    <p className="mt-5 text-center">Whatever your vision—a SaaS app, an AI/ML business, a website, an eCommerce store— <br /> build it here
+                    <h1 className="text-6xl font-bold font-epilogue">Dream it. Build it. Grow it.</h1>
+                    <p className="mt-5 text-center font-inter">Whatever your vision—a SaaS app, an AI/ML business, a website, an eCommerce store— <br /> build it here
                         using DigitalOcean's simple, cost-effective cloud hosting services.</p>
                     <div className="mt-8 font-semibold flex gap-x-5">
                         <button className="px-4 py-2 rounded-lg bg-do-blue-mediumdark hover:bg-do-blue-bhover hover:duration-300">Sign up with email</button>

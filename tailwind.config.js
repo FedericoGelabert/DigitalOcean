@@ -16,7 +16,8 @@ export default {
       fontFamily: {
         'sans': "'Work Sans', sans-serif",
         'epilogue': "'Epilogue', sans-serif",
-        'jetbrain': "'JetBrains Mono', monospace"
+        'jetbrain': "'JetBrains Mono', monospace",
+        'inter': "'Inter', sans-serif"
       },
       colors: {
         'do-blue-dark': 'rgb(8, 27, 75)',
@@ -24,6 +25,8 @@ export default {
         'do-blue-mediumdark': 'rgb(0, 44, 155)',
         'do-blue-light': 'rgb(0, 105, 255)',
         'do-gray': 'rgb(214, 220, 234)',
+        'do-gray-card': '#4d5b7c',
+        'do-gray-subtext': 'rgb(77, 91, 124)',
         'do-gray-o': 'rgba(214, 220, 234, 0.2)',
         'do-gray-oh': 'rgba(214, 220, 234, 0.5)',
         'do-blue-bhover': 'rgb(0, 36, 124)',

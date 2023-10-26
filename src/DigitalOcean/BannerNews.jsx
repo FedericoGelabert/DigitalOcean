@@ -2,7 +2,7 @@
 const BannerNews = () => {
     return (
         <div className="container mx-auto flex justify-center mt-96 mb-52">
-            <div className="flex text-white relative h-72 bg-do-purple w-9.5/12 rounded-3xl"
+            <div className="flex text-white relative h-72 w-9.5/12 rounded-3xl"
              style={{ background: "rgb(48, 0, 145)", backgroundImage: "url('https://www.digitalocean.com/_next/static/media/do-gtm-cta-text-desktop.49ae262a.svg')", backgroundRepeat: "no-repeat", backgroundPosition: "right" }}>
                 <div className="flex flex-col justify-between py-8 pl-16">
                     <h4 className="text-2xl font-bold">What's new and what's next at <br />DigitalOcean</h4>

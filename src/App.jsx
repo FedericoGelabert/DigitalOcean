@@ -1,5 +1,7 @@
 // import CssTailwind from "./OnlyPractice/CssTailwind.jsx"
 import BannerNews from "./DigitalOcean/BannerNews"
+import BannerSydney from "./DigitalOcean/BannerSydney"
+import Benefits from "./DigitalOcean/Benefits"
 import Header from "./DigitalOcean/Header"
 import Main from "./DigitalOcean/Main"
 import Reviews from "./DigitalOcean/Reviews"
@@ -15,6 +17,8 @@ function App() {
       <Main/>
       <BannerNews/>
       <Reviews/>
+      <BannerSydney/>
+      <Benefits/>
     </div>
   )
 }
