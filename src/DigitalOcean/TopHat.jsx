@@ -8,7 +8,6 @@ const TopHat = () => {
                 </div>
                 <div>
                     <ul className="flex gap-4 items-center">
-                        <li className="bg-do-blue-mediumdark px-3 py-1 rounded text-blue-400"><a href="#">We're Hiring</a></li>
                         <li><a href="#" className="hover:text-white">Blog</a></li>
                         <li><a href="#" className="hover:text-white">Docs</a></li>
                         <li><a href="#" className="hover:text-white">Get Support</a></li>

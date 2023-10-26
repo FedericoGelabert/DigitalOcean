@@ -14,7 +14,9 @@ export default {
         '200': '45rem'
       },
       fontFamily: {
-        'sans': "'Work Sans', sans-serif"
+        'sans': "'Work Sans', sans-serif",
+        'epilogue': "'Epilogue', sans-serif",
+        'jetbrain': "'JetBrains Mono', monospace"
       },
       colors: {
         'do-blue-dark': 'rgb(8, 27, 75)',
@@ -22,8 +24,11 @@ export default {
         'do-blue-mediumdark': 'rgb(0, 44, 155)',
         'do-blue-light': 'rgb(0, 105, 255)',
         'do-gray': 'rgb(214, 220, 234)',
+        'do-gray-o': 'rgba(214, 220, 234, 0.2)',
+        'do-gray-oh': 'rgba(214, 220, 234, 0.5)',
         'do-blue-bhover': 'rgb(0, 36, 124)',
-        'do-purple': 'rgb(48, 0, 145)'
+        'do-purple': 'rgb(48, 0, 145)',
+        'do-reviews': 'rgba(200, 223, 255, 0.5)'
       },
       backgroundImage: {
         'main-image': "url('https://www.digitalocean.com/_next/static/media/floating-console-home-desktop-background.33702df4.svg')",
@@ -33,7 +38,11 @@ export default {
         'main': '5rem'
       },
       width: {
-        '9.5/12': '79%'
+        '9.5/12': '79%',
+        '5.5/12': '45%'
+      },
+      height: {
+        '88': '22rem'
       }
     },
   },

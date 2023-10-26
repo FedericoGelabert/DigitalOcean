@@ -1,7 +1,7 @@
 
-const BannerNew = () => {
+const BannerNews = () => {
     return (
-        <div className="container mx-auto flex justify-center mt-96 mb-64">
+        <div className="container mx-auto flex justify-center mt-96 mb-52">
             <div className="flex text-white relative h-72 bg-do-purple w-9.5/12 rounded-3xl"
              style={{ background: "rgb(48, 0, 145)", backgroundImage: "url('https://www.digitalocean.com/_next/static/media/do-gtm-cta-text-desktop.49ae262a.svg')", backgroundRepeat: "no-repeat", backgroundPosition: "right" }}>
                 <div className="flex flex-col justify-between py-8 pl-16">
@@ -17,4 +17,4 @@ const BannerNew = () => {
     )
 }
 
-export default BannerNew;
+export default BannerNews;
