@@ -14,3 +14,19 @@ body {
 .topwaveFilter {
     filter: saturate(600%) contrast(600%) brightness(100%) 
 }
+
+.footerUl {
+    @apply flex flex-col gap-3 text-do-gray-card;
+}
+
+.footerLi {
+    @apply text-black font-bold mb-2;
+}
+
+footer a {
+    @apply cursor-pointer hover:text-black text-sm;
+}
+
+.footerLink {
+    @apply text-do-gray-card hover:text-black hover:duration-500 hover:font-bold;
+}
