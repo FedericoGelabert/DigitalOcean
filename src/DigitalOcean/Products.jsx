@@ -16,6 +16,7 @@ const Products = () => {
                     productAlt="Cloudways logo"
                     productTitle="Managed hosting"
                     productP="Cloudways is a fully-managed cloud hosting solution for digital agencies & ecommerce businesses. Built to deliver performance without complexity."
+                    productMargin="mr-5"
                 />
                 <Product
                     productSrc="https://www.digitalocean.com/_next/static/media/droplets-icon.b6e4bb89.svg"
@@ -28,12 +29,14 @@ const Products = () => {
                     productAlt="Kubernetes icon"
                     productTitle="Kubernetes"
                     productP="DigitalOcean Kubernetes is a managed solution that is easy to scale and includes a 99.5% SLA for HA and free control plane."
+                    productMargin="ml-5"
                 />
                 <Product
                     productSrc="https://www.digitalocean.com/_next/static/media/app-platform-icon.699988d5.svg"
                     productAlt="Platform icon"
                     productTitle="App Platform"
                     productP="Build and deploy apps without managing infrastructure with DigitalOcean’s Platform as a Service and serverless solutions."
+                    productMargin="mr-5"
                 />
                 <Product
                     productSrc="https://www.digitalocean.com/_next/static/media/managed-databases-icon.34e236c6.svg"
@@ -46,6 +49,7 @@ const Products = () => {
                     productAlt="Storage icon"
                     productTitle="Storage"
                     productP="DigitalOcean Spaces object storage and Volumes block storage are business-ready storage solutions."
+                    productMargin="ml-5"
                 />
             </div>
             <div className="text-center flex justify-center">

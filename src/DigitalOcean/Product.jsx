@@ -1,7 +1,7 @@
 
-const Product = ({productSrc, productAlt, productTitle, productP}) => {
+const Product = ({productSrc, productAlt, productTitle, productP, productMargin }) => {
     return (
-        <div className="shadow-xl flex w-3.9/12 h-64 rounded-3xl my-5 mx-2 bg-white">
+        <div className={`shadow-xl flex w-3.9/12 h-64 rounded-3xl my-5 bg-white ${productMargin}`}>
             <div className="p-10 flex justify-between flex-col">
                 <div className="flex flex-col">
                     <div className="flex mb-2">
