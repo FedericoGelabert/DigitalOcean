@@ -6,12 +6,15 @@ export default {
   ],
   theme: {
     container: {
-        padding: '5rem'
+        padding: '7rem'
     },
     extend: {
       spacing: {
         'quarter':'25%',
-        '200': '45rem'
+        '120': '30rem',
+        '200': '45rem',
+        '0.4': '0.090rem',
+        '3.9/12': '32%'
       },
       fontFamily: {
         'sans': "'Work Sans', sans-serif",

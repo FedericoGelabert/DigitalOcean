@@ -8,5 +8,5 @@
 @tailwind utilities;
 
 body {
-    background-color: rgb(255, 255, 255);
+    @apply bg-gray-50;
 }

@@ -5,13 +5,13 @@ const Reviews = () => {
             <img src="https://www.digitalocean.com/_next/static/media/top-wave-blue-6.1b592f40.svg" alt="Divisor" className="w-full" />
             <div className="bg-do-reviews">
                 <div className="container mx-auto relative">
-                    <img src="https://www.digitalocean.com/_next/static/media/garnish-blue.26799a4e.svg" alt="Granish blue" className="absolute" style={{ zIndex: '10', top: '100px', left: '150px' }}/>
+                    <img src="https://www.digitalocean.com/_next/static/media/garnish-blue.26799a4e.svg" alt="Granish blue" className="absolute" style={{ zIndex: '10', top: '100px', left: '140px' }}/>
                     <img src="https://www.digitalocean.com/_next/static/media/garnish-2-blue.5aa0f894.svg" alt="Granish2 blue" className="absolute" style={{ zIndex: '10', top: '160px', right: '100px' }} />
                     <div className="flex justify-center">
-                        <h3 className="text-4xl text-center font-bold font-epilogue text-do-blue-dark pt-16">How real businesses use DigitalOcean to <br /> accelerate their growth</h3>
+                        <h3 className="text-4xl text-center font-bold font-inter text-do-blue-dark pt-16 w-4/6">How real businesses use DigitalOcean to accelerate their growth</h3>
                     </div>
                     <div className="flex justify-center py-20">
-                        <div className="text-white w-5.5/12 h-88 bg-do-blue-light p-8 flex flex-col justify-between rounded-3xl relative z-50 mt-16">
+                        <div className="text-white w-6/12 h-88 bg-do-blue-light p-8 flex flex-col justify-between rounded-3xl relative z-50 mt-16">
                             <div className="flex justify-between">
                                 <img src="https://www.digitalocean.com/_next/static/media/h-grant-designs-logo.eec0d013.png" alt="H Grant Designs Logo" className="w-40 object-contain" />
                                 <div className="flex gap-4">
@@ -27,8 +27,8 @@ const Reviews = () => {
                                 </div>
                             </div>
                             <div>
-                                <h4 className="text-2xl leading-6 font-medium font-epilogue tracking-tight">How H Grant Design uses Cloudways managed<br /> hosting to manage client websites.</h4>
-                                <p className="tracking-tight">“For me, support is key. If a company provides amazing support, that goes above anything else. Cloudways offers fantastic support. The easy installation of WordPress is also really impressive. I can get a new install done within 2 minutes, and it 'just works.'”</p>
+                                <h4 className="text-2xl leading-6 font-medium font-epilogue tracking-tight">How H Grant Design uses Cloudways managed hosting to manage client websites.</h4>
+                                <p className="tracking-tight w-11/12">“For me, support is key. If a company provides amazing support, that goes above anything else. Cloudways offers fantastic support. The easy installation of WordPress is also really impressive. I can get a new install done within 2 minutes, and it 'just works.'”</p>
                             </div>
                             <div>
                                 <button className="flex items-center font-jetbrain font-semibold">Read the interview <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-2">
@@ -38,12 +38,12 @@ const Reviews = () => {
                             </div>
                         </div>
                         <div className="relative right-16">
-                            <img src="https://www.digitalocean.com/_next/static/media/h-grant-designs-card.4c8bc703.png" alt="" className="h-96 rounded-3xl" />
+                            <img src="https://www.digitalocean.com/_next/static/media/h-grant-designs-card.4c8bc703.png" alt="" className="h-96 rounded-3xl"/>
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="https://www.digitalocean.com/_next/static/media/top-wave-blue-6.1b592f40.svg" alt="Divisor" className="w-full rotate-180 "/>
+            <img src="https://www.digitalocean.com/_next/static/media/top-wave-blue-6.1b592f40.svg" alt="Divisor" className="w-full rotate-180 align-bottom block bottom-0.4 relative"/>
         </div>
     )
 }

@@ -5,7 +5,7 @@ const Benefits = () => {
         <div className="container mx-auto">
             <div className="flex flex-col items-center text-center pb-16">
                 <h3 className="font-bold font-epilogue text-4xl pb-4 text-do-blue-dark">Benefits to activate the builder in you</h3>
-                <p className="text-do-gray-subtext font-medium">From simple tools and predictable pricing to support designed for growing<br /> businesses, DigitalOcean's cloud is built to serve the unique needs of startups and<br /> SMBs.</p>
+                <p className="text-do-gray-subtext font-medium font-inter w-3/6">From simple tools and predictable pricing to support designed for growing businesses, DigitalOcean's cloud is built to serve the unique needs of startups and SMBs.</p>
             </div>
             <div className="flex flex-wrap justify-center">
                 <Card

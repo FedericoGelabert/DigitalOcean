@@ -1,8 +1,8 @@
 
 const Header = () => {
     return (
-        <header className="py-5 shadow-md z-30 relative">
-            <div className="container mx-auto flex justify-between">
+        <header className="py-4 shadow-md z-30 relative">
+            <div className="container mx-auto flex justify-between font-inter">
                 <div className="flex items-center">
                     <div>
                         <a href="#" className="flex">
@@ -11,7 +11,7 @@ const Header = () => {
                         </a>
                     </div>
                     <nav>
-                        <ul className="flex gap-x-3 pl-10 items-center font-medium">
+                        <ul className="flex gap-x-1 pl-10 items-center font-medium">
                         <a href="#" className="flex items-center gap-2.5 hover:bg-gray-200 p-3 rounded-xl">Products<li>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4 text-gray-600">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -38,7 +38,7 @@ const Header = () => {
                 </div>
                 <div className="gap-5 flex font-medium">
                     <button className="bg-white-400 py-2 px-5 hover:bg-gray-200 p-3 rounded-xl">Log in</button> 
-                    <button className="bg-do-blue-light py-1 px-5 border rounded-xl text-white hover:bg-blue-800 hover:duration-300">Sign up</button>
+                    <button className="bg-do-blue-light py-0.5 px-5 border rounded-xl text-white font-semibold hover:bg-blue-800 hover:duration-300">Sign up</button>
                 </div>
             </div>
         </header>
