@@ -1,7 +1,7 @@
 
 const Main = () => {
     return (
-        <div className="pt-20">
+        <div className="pt-28">
             <div className="pt-32 bg-do-blue-light bg-main-image bg-cover rounded-b-main h-200 relative z-20">
                 <div className="container mx-auto flex items-center flex-col text-white">
                     <h1 className="text-6xl font-bold font-epilogue">Dream it. Build it. Grow it.</h1>
