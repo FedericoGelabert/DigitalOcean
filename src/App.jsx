@@ -5,6 +5,7 @@ import BannerTour from "./DigitalOcean/BannerTour"
 import Benefits from "./DigitalOcean/Benefits"
 import BottomSignUp from "./DigitalOcean/BottomSignUp"
 import Experts from "./DigitalOcean/Experts"
+import GetStarted from "./DigitalOcean/GetStarted"
 import Header from "./DigitalOcean/Header"
 import Main from "./DigitalOcean/Main"
 import Products from "./DigitalOcean/Products"
@@ -27,6 +28,7 @@ function App() {
       <Products/>
       <Experts/>
       <BottomSignUp/>
+      <GetStarted/>
     </div>
   )
 }
