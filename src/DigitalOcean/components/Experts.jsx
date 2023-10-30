@@ -1,4 +1,4 @@
-import ExpertsCard from "./ExpertsCard";
+import ExpertsCard from "../utilities/ExpertsCard";
 
 
 const Experts = () => {
