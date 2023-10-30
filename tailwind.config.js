@@ -27,6 +27,7 @@ export default {
         'do-blue-medium': 'rgb(20, 86, 255)',
         'do-blue-mediumdark': 'rgb(0, 44, 155)',
         'do-blue-light': 'rgb(0, 105, 255)',
+        'do-cyan': 'rgba(0, 255, 255, 0.5)',
         'do-gray': 'rgb(214, 220, 234)',
         'do-gray-card': '#4d5b7c',
         'do-gray-subtext': 'rgb(77, 91, 124)',
