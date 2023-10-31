@@ -22,7 +22,9 @@ const Products = () => {
                     productSrc="https://www.digitalocean.com/_next/static/media/droplets-icon.b6e4bb89.svg"
                     productAlt="Droplets icon"
                     productTitle="Virtual machines"
-                    productP="DigitalOcean Droplets are simple, scalable virtual machines for all your web hosting and VPS hosting needs."
+                    productP={["DigitalOcean Droplets are simple, scalable virtual machines for all your web hosting",
+                    <a src="#" className="underline text-do-blue-medium"> web hosting</a>, " and ", 
+                    <a src="#" className="underline text-do-blue-medium"> VPS hosting</a>, " needs."]}
                 />
                 <Product
                     productSrc="https://www.digitalocean.com/_next/static/media/kubernetes-icon.bab9c67d.svg"
