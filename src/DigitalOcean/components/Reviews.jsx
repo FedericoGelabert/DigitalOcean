@@ -11,7 +11,7 @@ const Reviews = () => {
                         <h3 className="text-4xl text-center font-bold font-inter text-do-blue-dark pt-16 w-4/6">How real businesses use DigitalOcean to accelerate their growth</h3>
                     </div>
                     <div className="flex justify-center py-20">
-                        <div className="text-white w-6/12 h-88 bg-do-blue-light p-8 flex flex-col justify-between rounded-3xl relative z-20 mt-16">
+                        <div className="text-white w-6/12 h-88 bg-do-blue-light p-8 flex flex-col justify-between rounded-3xl relative z-10 mt-16">
                             <div className="flex justify-between">
                                 <img src="https://www.digitalocean.com/_next/static/media/h-grant-designs-logo.eec0d013.png" alt="H Grant Designs Logo" className="w-40 object-contain" />
                                 <div className="flex gap-4">
