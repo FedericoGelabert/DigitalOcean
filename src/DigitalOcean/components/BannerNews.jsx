@@ -1,7 +1,7 @@
 
 const BannerNews = () => {
     return (
-        <div className="container mx-auto flex justify-center lg:mt-130 sm:mt-150 mt-250 mb-52 xl:px-28 px-4">
+        <div className="container mx-auto flex justify-center lg:mt-130 sm:mt-200 mt-250 mb-52 xl:px-28 px-4">
             <div className="flex text-white relative lg:h-72 h-150 w-11/12 rounded-2xl bg-bottom"
              style={{ background: "rgb(48, 0, 145)", backgroundImage: "url('https://www.digitalocean.com/_next/static/media/do-gtm-cta-text-desktop.49ae262a.svg')", backgroundRepeat: "no-repeat", backgroundPosition: "right bottom"}}>
                 <div className="flex flex-col lg:justify-between py-8 lg:pl-16 mob:pl-12 pl-8">
