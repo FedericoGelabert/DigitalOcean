@@ -5,14 +5,16 @@ export default {
     "./src/**/*.{js,jsx}"
   ],
   theme: {
-    container: {
-        padding: '7rem'
-    },
     extend: {
       spacing: {
         'quarter':'25%',
+        '110': '27rem',
         '120': '30rem',
+        '140': '35rem',
+        '150': '38rem',
+        '180': '40rem',
         '200': '45rem',
+        '250': '52rem',
         '0.4': '0.090rem',
         '3.9/12': '32%'
       },
@@ -50,6 +52,9 @@ export default {
       },
       height: {
         '88': '22rem'
+      },
+      screens: {
+        mob: '480px'
       }
     },
   },

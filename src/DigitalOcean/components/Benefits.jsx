@@ -2,10 +2,10 @@ import Card from "../utilities/Card";
 
 const Benefits = () => {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto xl:px-28 px-4">
             <div className="flex flex-col items-center text-center pb-16">
                 <h3 className="font-bold font-epilogue text-4xl pb-4 text-do-blue-dark">Benefits to activate the builder in you</h3>
-                <p className="text-do-gray-subtext font-medium font-inter w-3/6">From simple tools and predictable pricing to support designed for growing businesses, DigitalOcean's cloud is built to serve the unique needs of startups and SMBs.</p>
+                <p className="text-do-gray-subtext font-medium font-inter lg:w-3/6 w-5/6">From simple tools and predictable pricing to support designed for growing businesses, DigitalOcean's cloud is built to serve the unique needs of startups and SMBs.</p>
             </div>
             <div className="flex flex-wrap justify-center">
                 <Card
