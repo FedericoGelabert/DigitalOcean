@@ -18,7 +18,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="container mx-auto flex justify-center mt-16 xl:px-28 px-4">
-                    <img alt="Preview of the DigitalOcean Control Panel " src="https://www.digitalocean.com/_next/static/media/dashboardMockup.2c5abdba.svg" className="rounded-xl lg:w-8/12 w-11/12 shadow-2xl"></img>
+                    <img alt="Preview of the DigitalOcean Control Panel " src="/images/dashboardMockup.svg" className="rounded-xl lg:w-8/12 w-11/12 shadow-2xl"></img>
                 </div>
                 <div className="flex container mx-auto gap-20 justify-center mt-10 font-inter xl:px-28 px-4 md:flex-row md:no-wrap flex-wrap">
                     <div className="w-64">

@@ -3,7 +3,7 @@
 const BottomSignUp = () => {
     return (
         <div className="mt-32">
-            <img src="https://www.digitalocean.com/_next/static/media/top-wave-blue-6.1b592f40.svg" alt="Divisor" className="w-full topwaveFilter" />
+            <img src="/images/top-wave-blue.svg" alt="Divisor" className="w-full topwaveFilter" />
             <div className="bg-do-cyan">
                 <div className="container mx-auto pt-16 pb-20 xl:px-28 px-4">
                     <div className="flex flex-col items-center text-center">

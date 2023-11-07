@@ -9,25 +9,25 @@ const Benefits = () => {
             </div>
             <div className="flex flex-wrap justify-center">
                 <Card
-                    cardSrc="https://www.digitalocean.com/_next/static/media/bar-chart.656d9366.png"
+                    cardSrc="/images/bar-chart.png"
                     cardAlt="bar chart"
                     cardTitle="Build and ship faster using simple tools"
                     cardP="All of our products are built with simplicity at their core, so you can spend your time focusing on building apps, not infrastructure." />
                 <Card
-                    cardSrc="https://www.digitalocean.com/_next/static/media/dollar-up-splash.6b8727f3.png"
+                    cardSrc="/images/dollar-up-splash.png"
                     cardAlt="dolar up splash"
                     cardTitle="Grow profitably with predictable cloud costs"
                     cardP={["Our predictable pricing and leading price-to-performance ratio contribute to an ROI of 186%",
                         <a src="#" className="underline text-do-blue-medium"> according to a Forrester study.</a>]}
                 />
                 <Card
-                    cardSrc="https://www.digitalocean.com/_next/static/media/speech-bubbles.cc4ac392.png"
+                    cardSrc="/images/speech-bubbles.png"
                     cardAlt="speech bubbles"
                     cardTitle="Reduce your roadblocks with dedicated support"
                     cardP="Get free, personalized support or upgrade to paid plans to receive dedicated help and faster response times."
                 />
                 <Card
-                    cardSrc="https://www.digitalocean.com/_next/static/media/arrows.5086d9da.png"
+                    cardSrc="/images/arrows.png"
                     cardAlt="arrows"
                     cardTitle="Improve customer experience by building on a reliable platform"
                     cardP="Deliver superior customer experience with our globally distributed platform, minimal downtime, and intuitive products."

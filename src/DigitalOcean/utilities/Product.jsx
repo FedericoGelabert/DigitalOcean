@@ -4,7 +4,7 @@ const Product = () => {
     const productList = [
         {
             id: 1,
-            productSrc: "https://www.digitalocean.com/_next/static/media/cloudways-logo.4b393732.svg",
+            productSrc: "/images/cloudways-logo.svg",
             productAlt: "Cloudways logo",
             productTitle: "Managed hosting",
             productP: "Cloudways is a fully-managed cloud hosting solution for digital agencies & ecommerce businesses. Built to deliver performance without complexity.",
@@ -12,7 +12,7 @@ const Product = () => {
         },
         {
             id: 2,
-            productSrc: "https://www.digitalocean.com/_next/static/media/droplets-icon.b6e4bb89.svg",
+            productSrc: "/images/droplets-icon.svg",
             productAlt: "Droplets icon",
             productTitle: "Virtual machines",
             productP: ["DigitalOcean Droplets are simple, scalable virtual machines for all your web hosting",
@@ -22,7 +22,7 @@ const Product = () => {
         },
         {
             id: 3,
-            productSrc: "https://www.digitalocean.com/_next/static/media/kubernetes-icon.bab9c67d.svg",
+            productSrc: "/images/kubernetes-icon.svg",
             productAlt: "Kubernetes icon",
             productTitle: "Kubernetes",
             productP: "DigitalOcean Kubernetes is a managed solution that is easy to scale and includes a 99.5% SLA for HA and free control plane.",
@@ -30,7 +30,7 @@ const Product = () => {
         },
         {
             id: 4,
-            productSrc: "https://www.digitalocean.com/_next/static/media/app-platform-icon.699988d5.svg",
+            productSrc: "/images/app-platform-icon.svg",
             productAlt: "Platform icon",
             productTitle: "App Platform",
             productP: "Build and deploy apps without managing infrastructure with DigitalOcean’s Platform as a Service and serverless solutions.",
@@ -38,7 +38,7 @@ const Product = () => {
         },
         {
             id: 5,
-            productSrc: "https://www.digitalocean.com/_next/static/media/managed-databases-icon.34e236c6.svg",
+            productSrc: "/images/managed-databases-icon.svg",
             productAlt: "Databases icon",
             productTitle: "Managed databases",
             productP: "Managed MongoDB, Kafka, MySQL, PostgreSQL, and Managed Databases for Redis®* let you focus on your apps while we update and scale your databases.",
@@ -46,7 +46,7 @@ const Product = () => {
         },
         {
             id: 6,
-            productSrc: "https://www.digitalocean.com/_next/static/media/spaces-storage-icon.847a812f.svg",
+            productSrc: "/images/spaces-storage-icon.svg",
             productAlt: "Storage icon",
             productTitle: "Storage",
             productP: "DigitalOcean Spaces object storage and Volumes block storage are business-ready storage solutions.",

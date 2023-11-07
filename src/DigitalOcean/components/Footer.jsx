@@ -93,7 +93,7 @@ const Footer = () => {
             <div className="mt-20 flex justify-center">
                 <div className="flex justify-between w-10/12 lg:flex-row flex-col items-center">
                     <div className="flex text-do-gray-card items-center tracking-tighter">
-                        <img src="https://www.digitalocean.com/_next/static/media/do-logo.d3eb8550.svg" alt="Do logo" className="w-8 h-8 " />
+                        <img src="/images/do-logo.svg" alt="Do logo" className="w-8 h-8 " />
                         <p className="pl-4">© 2023 DigitalOcean, LLC.</p>
                         <p src="#" className="cursor-pointer text-md pl-3">Sitemap.</p>
                         

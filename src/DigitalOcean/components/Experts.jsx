@@ -11,20 +11,20 @@ const Experts = () => {
             </div>
             <div className="flex flex-wrap justify-center">
                 <ExpertsCard
-                    expertsCardSrc="https://www.digitalocean.com/_next/static/media/digitalocean-docs.26159f78.svg"
+                    expertsCardSrc="/images/digitalocean-docs.svg"
                     expertsCardAlt="DigitalOcean docs"
                     expertsCardTitle="Product documentation"
                     expertsCardP="Learn how to spin up a virtual machine, get started with block storage, and more with in-depth documentation."
                     expertsCardMargin="2xl:mr-6 mr-0"
                 />
                 <ExpertsCard
-                    expertsCardSrc="https://www.digitalocean.com/_next/static/media/boat-storm-lighthouse.4bdddec0.png"
+                    expertsCardSrc="/images/boat-storm-lighthouse.png"
                     expertsCardAlt="Boat storm lighthouse"
                     expertsCardTitle="Business advice"
                     expertsCardP="The Wave is DigitalOcean’s hub for startup and business-focused content on funding, hiring, and scaling."
                 />
                 <ExpertsCard
-                    expertsCardSrc="https://www.digitalocean.com/_next/static/media/heart-speech-bubble-asterisk-graphic.6eb0678f.svg"
+                    expertsCardSrc="/images/heart-speech-bubble-asterisk-graphic.svg"
                     expertsCardAlt="Heart speech bubble asterisk graphic"
                     expertsCardTitle="Technical expertise"
                     expertsCardP="Visit DigitalOcean’s Community Website and CSS-Tricks to learn from wide range of technical tutorials."
